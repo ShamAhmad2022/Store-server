@@ -1,6 +1,7 @@
 'use strict';
 
 const express = require('express');
+const cors = require('cors');
 
 const notFoundHandler = require('./error-handlers/404.js');
 const errorHandler = require('./error-handlers/500.js');
@@ -12,9 +13,7 @@ const authRoutes = require('./routes/auth.js');
 
 const app = express();
 
-app.use(cors({
-  origin:'*'
-}));
+app.use(cors());
 
 app.use(express.json());
 
