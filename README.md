@@ -1,14 +1,6 @@
-# Lab 08
-## Access Control
-Authors: Sham Al-Jalam
-
-## URLs
+# store server
 
 * deployed application : [https://auth-api-ylcl.onrender.com/](https://auth-api-ylcl.onrender.com/)
-
-* Github actions: [https://github.com/ShamAhmad2022/auth-api/actions](https://github.com/ShamAhmad2022/auth-api/actions)
-
-*  pull request: []()
 
 ### Setup:
 .env requirements:
