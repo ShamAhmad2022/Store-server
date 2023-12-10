@@ -1,6 +1,5 @@
 # store server
-
-* deployed application : [https://auth-api-ylcl.onrender.com/](https://auth-api-ylcl.onrender.com/)
+Store server that allow users to register and purchase different types of products.
 
 ### Setup:
 .env requirements:
